@@ -1,5 +1,5 @@
 var currentHour = dayjs().hour();
-var description = $('.description')
+var description = $('.description');
 var today = dayjs();
 //this will pause loading the JS file until the rest of the page has loaded in
 $(document).ready()
